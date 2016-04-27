@@ -1,0 +1,66 @@
+$myColor: #E1E6FA;
+$myFontSize: 3em;
+$myMargin: 0px auto;
+$myWidth: 460px;
+$myPadding: 1%;
+$myFont: 'Pacifico', cursive;
+$myFont2: 'Bangers', cursive;
+
+h1 {
+	color: $myColor;
+  text-align: center;
+	margin: auto;
+	padding: $myPadding;
+  font-family: $myFont;
+}
+
+#container {
+	width: $myWidth;
+	margin: $myMargin;
+  padding: $myPadding;
+  font-family: $myFont2;
+  text-shadow: 2px 2px #ff0000;
+}
+
+@mixin border {
+   border: 1px solid #E1E6FA;
+}
+
+#container {
+   width: 960px;
+   padding: $myPadding;
+   margin: 0 auto;
+   @include border;
+}
+
+$myColor: #aa30ff;
+$myPadding: 20px;
+$thickness: 0.5px;
+$border: solid #E1E6FA;
+
+#samplepara{
+	color: $myColor;
+	padding: $myPadding+30;
+}
+
+#list1 {
+	color: #E1E6FA;
+	border: $thickness+5 $border;
+}
+
+$myColor: #E1E6FA;
+$myBackground: #ABC8E2;
+
+body {
+     background: darken($myBackground, 5%);
+}
+
+h1, h2 {
+     color: lighten($myColor, 5%);
+     text-align: center;
+
+}
+
+footer {
+  color: black;
+}

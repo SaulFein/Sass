@@ -1,0 +1,39 @@
+h1 {
+  color: #E1E6FA;
+  text-align: center;
+  margin: auto;
+  padding: 1%;
+  font-family: "Pacifico", cursive; }
+
+#container {
+  width: 460px;
+  margin: 0px auto;
+  padding: 1%;
+  font-family: "Bangers", cursive;
+  text-shadow: 2px 2px #ff0000; }
+
+#container {
+  width: 960px;
+  padding: 1%;
+  margin: 0 auto;
+  border: 1px solid #E1E6FA; }
+
+#samplepara {
+  color: #aa30ff;
+  padding: 50px; }
+
+#list1 {
+  color: #E1E6FA;
+  border: 5.5px solid #E1E6FA; }
+
+body {
+  background: #98bcdb; }
+
+h1, h2 {
+  color: #f7f8fe;
+  text-align: center; }
+
+footer {
+  color: black; }
+
+/*# sourceMappingURL=style.css.map */
